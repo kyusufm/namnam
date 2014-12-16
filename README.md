@@ -1,4 +1,7 @@
-namnam
-======
+NamNam - Side Project by K Yusuf Muhammad
+=========================================
 
-sixty six day themes project
+NamNam is a sixty six free themes, created by me.
+
+built with bootstrap + sublime + [HTML+CSS+Javascript+etc]
+
