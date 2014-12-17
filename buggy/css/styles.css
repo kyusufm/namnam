@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%; }
+
+.container {
+  min-height: 100%;
+  max-width: 1200px;
+  width: auto;
+  margin: 0 auto; }
+
+h1 {
+  border-bottom: 2px solid #69A550;
+  color: #FF8700;
+  margin: 0 0 0.5em; }
+
+.quote {
+  color: #0f0f0f; }
+
+/*# sourceMappingURL=styles.css.map */

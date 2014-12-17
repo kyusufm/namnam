@@ -1,4 +1,81 @@
 /*global*/
-body{
+.color-primary-0 { color: #A0A0A0 }	/* Main Primary color */
+.color-primary-1 { color: #FFFFFF }
+.color-primary-2 { color: #DFDFDF }
+.color-primary-3 { color: #828282 }
+.color-primary-4 { color: #636464 }
 
+@font-face {
+  font-family: 'DroidSerif';
+  src: 
+    url('../fonts/DroidSerif.ttf') format('ttf'); /* Chrome 26+, Opera 23+ */
+    url('../fonts/DroidSerif.ttf') format('ttf'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*typography*/
+body{
+	background: #A0A0A0;
+	font-family: 'FreeSerif';
+	line-height: 22px;
+}
+
+p{
+	font-family: 'DroidSerif';
+	
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600; 
+  font-family: 'FreeSerif', sans-serif;
+  color:#FFFFFF;
+}
+
+a {
+  color: #c52d2f;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+  color: #c52d2f;
+}
+
+/*Header*/
+.navbar{
+	margin-top: 16px;
+}
+.navbar .navbar-nav > li > a {
+    padding: 14px 20px;
+    margin: 0px;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 24px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.nav li{
+	margin-left: 20px;
+}
+
+.nav > li > a:hover{
+	color:#fff;
+	background-color: #c52d2f;
+}
+
+
+/*home content*/
+.content-container{
+}
+.content{
+	padding: 15px 30px;
+	border-color: #000;
+	background-color: #fff;
 }
